@@ -1,0 +1,3 @@
+- Cuantas y cuales son las Disciplinas totales del club.
+- Cuantas y cuales son las Categorias totales del club, y en cuales se modifican (Ejemplo: Futbol femenino no tiene Senior).
+- Si posee cuales son las categorias de los socios (Ejemplo: Activo, pleno, Vitalicio).

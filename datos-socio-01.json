@@ -1,0 +1,1473 @@
+{
+  "socios": [
+    {
+      "socio_titular": {
+        "nro_socio": "S00123",
+        "nombre": "Martín",
+        "apellido": "Gómez",
+        "dni": "30123456",
+        "fecha_nacimiento": "1980-08-25",
+        "email": "martin.gomez@example.com",
+        "telefono_celular": "+5491112345678",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "futbol",
+            "categoria": "senior"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0001234500000001234567"
+        },
+        "id_grupo_familiar": "GF001"
+      },
+      "grupo_familiar": {
+        "id": "GF001",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00124",
+            "nombre": "Ana",
+            "apellido": "Gómez",
+            "dni": "45678901",
+            "fecha_nacimiento": "2010-03-10",
+            "email": "ana.gomez@example.com",
+            "telefono_celular": "+5491112345679",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "hockey",
+                "categoria": "2010"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          },
+          {
+            "nro_socio": "S00125",
+            "nombre": "Pedro",
+            "apellido": "Gómez",
+            "dni": "50123456",
+            "fecha_nacimiento": "2015-11-20",
+            "email": "pedro.gomez@example.com",
+            "telefono_celular": "+5491112345680",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "ninguno"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": false,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": [
+                {
+                  "mes": "Marzo",
+                  "anio": 2025
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00126",
+        "nombre": "Laura",
+        "apellido": "Rodríguez",
+        "dni": "35876543",
+        "fecha_nacimiento": "1992-01-18",
+        "email": "laura.rodriguez@example.com",
+        "telefono_celular": "+5491123456789",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "tenis",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": []
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": "GF002"
+      },
+      "grupo_familiar": {
+        "id": "GF002",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00127",
+            "nombre": "Diego",
+            "apellido": "Rodríguez",
+            "dni": "55123456",
+            "fecha_nacimiento": "2018-07-03",
+            "email": "diego.rodriguez@example.com",
+            "telefono_celular": "+5491123456790",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "futbol",
+                "categoria": "2018"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00128",
+        "nombre": "Carlos",
+        "apellido": "Fernández",
+        "dni": "28112233",
+        "fecha_nacimiento": "1975-11-01",
+        "email": "carlos.fernandez@example.com",
+        "telefono_celular": "+5491134567890",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "paddle",
+            "categoria": "senior"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Marzo",
+              "anio": 2025
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0009876500000009876543"
+        },
+        "id_grupo_familiar": "GF003"
+      },
+      "grupo_familiar": {
+        "id": "GF003",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00129",
+            "nombre": "Sofía",
+            "apellido": "Fernández",
+            "dni": "40987654",
+            "fecha_nacimiento": "2005-02-14",
+            "email": "sofia.fernandez@example.com",
+            "telefono_celular": "+5491134567891",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "hockey",
+                "categoria": "primera"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          },
+          {
+            "nro_socio": "S00130",
+            "nombre": "Lucas",
+            "apellido": "Fernández",
+            "dni": "52345678",
+            "fecha_nacimiento": "2013-09-29",
+            "email": "lucas.fernandez@example.com",
+            "telefono_celular": "+5491134567892",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "futbol",
+                "categoria": "2013"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": false,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": [
+                {
+                  "mes": "Abril",
+                  "anio": 2025
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00131",
+        "nombre": "Mariana",
+        "apellido": "López",
+        "dni": "32789012",
+        "fecha_nacimiento": "1988-04-12",
+        "email": "mariana.lopez@example.com",
+        "telefono_celular": "+5491145678901",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "rugby",
+            "categoria": "tercera"
+          },
+          {
+            "nombre_disciplina": "tenis",
+            "categoria": "tercera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": []
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00132",
+        "nombre": "Federico",
+        "apellido": "Paz",
+        "dni": "40123987",
+        "fecha_nacimiento": "2000-09-05",
+        "email": "federico.paz@example.com",
+        "telefono_celular": "+5491156789012",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "futbol",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Mayo",
+              "anio": 2025
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0001112200000001112233"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00133",
+        "nombre": "Valentina",
+        "apellido": "Silva",
+        "dni": "42567890",
+        "fecha_nacimiento": "2002-06-20",
+        "email": "valentina.silva@example.com",
+        "telefono_celular": "+5491167890123",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "hockey",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00134",
+        "nombre": "Ignacio",
+        "apellido": "Moreno",
+        "dni": "38765432",
+        "fecha_nacimiento": "1995-03-08",
+        "email": "ignacio.moreno@example.com",
+        "telefono_celular": "+5491178901234",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "tenis",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0003334400000003334455"
+        },
+        "id_grupo_familiar": "GF004"
+      },
+      "grupo_familiar": {
+        "id": "GF004",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00135",
+            "nombre": "Julieta",
+            "apellido": "Moreno",
+            "dni": "50001002",
+            "fecha_nacimiento": "2010-10-10",
+            "email": "julieta.moreno@example.com",
+            "telefono_celular": "+5491178901235",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "rugby",
+                "categoria": "2010"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00136",
+        "nombre": "Elena",
+        "apellido": "Gutiérrez",
+        "dni": "29123456",
+        "fecha_nacimiento": "1978-02-28",
+        "email": "elena.gutierrez@example.com",
+        "telefono_celular": "+5491189012345",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "ninguno"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": []
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00137",
+        "nombre": "Agustín",
+        "apellido": "Castro",
+        "dni": "45678123",
+        "fecha_nacimiento": "2001-07-17",
+        "email": "agustin.castro@example.com",
+        "telefono_celular": "+5491190123456",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "futbol",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0005556600000005556677"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00138",
+        "nombre": "Emilia",
+        "apellido": "Vidal",
+        "dni": "39987654",
+        "fecha_nacimiento": "1990-12-01",
+        "email": "emilia.vidal@example.com",
+        "telefono_celular": "+5491101234567",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "paddle",
+            "categoria": "tercera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": []
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": "GF005"
+      },
+      "grupo_familiar": {
+        "id": "GF005",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00139",
+            "nombre": "Benjamín",
+            "apellido": "Vidal",
+            "dni": "51234567",
+            "fecha_nacimiento": "2012-04-04",
+            "email": "benjamin.vidal@example.com",
+            "telefono_celular": "+5491101234568",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "tenis",
+                "categoria": "2012"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00140",
+        "nombre": "Joaquín",
+        "apellido": "Rivas",
+        "dni": "36789012",
+        "fecha_nacimiento": "1983-07-22",
+        "email": "joaquin.rivas@example.com",
+        "telefono_celular": "+5491112345670",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "ninguno"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Mayo",
+              "anio": 2025
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0007778800000007778899"
+        },
+        "id_grupo_familiar": "GF006"
+      },
+      "grupo_familiar": {
+        "id": "GF006",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00141",
+            "nombre": "Mia",
+            "apellido": "Rivas",
+            "dni": "53456789",
+            "fecha_nacimiento": "2015-01-01",
+            "email": "mia.rivas@example.com",
+            "telefono_celular": "+5491112345671",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "hockey",
+                "categoria": "2015"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          },
+          {
+            "nro_socio": "S00142",
+            "nombre": "Mateo",
+            "apellido": "Rivas",
+            "dni": "54567890",
+            "fecha_nacimiento": "2017-06-15",
+            "email": "mateo.rivas@example.com",
+            "telefono_celular": "+5491112345672",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "futbol",
+                "categoria": "2017"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00143",
+        "nombre": "Carolina",
+        "apellido": "Núñez",
+        "dni": "31098765",
+        "fecha_nacimiento": "1986-09-19",
+        "email": "carolina.nunez@example.com",
+        "telefono_celular": "+5491123456780",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "tenis",
+            "categoria": "senior"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": []
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00144",
+        "nombre": "Santiago",
+        "apellido": "Pereyra",
+        "dni": "37000111",
+        "fecha_nacimiento": "1998-04-02",
+        "email": "santiago.pereyra@example.com",
+        "telefono_celular": "+5491134567899",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "rugby",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": false,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": [
+            {
+              "mes": "Mayo",
+              "anio": 2025
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0009990000000009990011"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00145",
+        "nombre": "Florencia",
+        "apellido": "Torres",
+        "dni": "41223344",
+        "fecha_nacimiento": "2003-08-11",
+        "email": "florencia.torres@example.com",
+        "telefono_celular": "+5491145678900",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "hockey",
+            "categoria": "primera"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "efectivo"
+        },
+        "id_grupo_familiar": null
+      },
+      "grupo_familiar": null
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00146",
+        "nombre": "Manuel",
+        "apellido": "Díaz",
+        "dni": "33445566",
+        "fecha_nacimiento": "1981-01-23",
+        "email": "manuel.diaz@example.com",
+        "telefono_celular": "+5491156789011",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "paddle",
+            "categoria": "senior"
+          },
+          {
+            "nombre_disciplina": "tenis",
+            "categoria": "senior"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Enero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Febrero",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Marzo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Abril",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Mayo",
+              "anio": 2025,
+              "estado": "pagada"
+            },
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ]
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0001010100000001010101"
+        },
+        "id_grupo_familiar": "GF007"
+      },
+      "grupo_familiar": {
+        "id": "GF007",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00147",
+            "nombre": "Isabella",
+            "apellido": "Díaz",
+            "dni": "56789012",
+            "fecha_nacimiento": "2019-03-03",
+            "email": "isabella.diaz@example.com",
+            "telefono_celular": "+5491156789010",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "ninguno"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Enero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Febrero",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Marzo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Abril",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Mayo",
+                  "anio": 2025,
+                  "estado": "pagada"
+                },
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "socio_titular": {
+        "nro_socio": "S00001",
+        "nombre": "Juan Pablo",
+        "apellido": "Straqualursi",
+        "dni": "12032569",
+        "fecha_nacimiento": "1987-02-12",
+        "email": "straqua@gmail.com",
+        "telefono_celular": "01123569874",
+        "disciplinas": [
+          {
+            "nombre_disciplina": "ninguno"
+          }
+        ],
+        "estado_cuotas": {
+          "al_dia": true,
+          "cuotas_pagadas_al_dia": [
+            {
+              "mes": "Junio",
+              "anio": 2025,
+              "estado": "pagada"
+            }
+          ],
+          "meses_con_deuda": []
+        },
+        "tipo_pago": {
+          "metodo": "transferencia_bancaria",
+          "cbu": "0001112200000001112257"
+        },
+        "id_grupo_familiar": "GF008"
+      },
+      "grupo_familiar": {
+        "id": "GF008",
+        "miembros_a_cargo": [
+          {
+            "nro_socio": "S00001",
+            "nombre": "Octavio",
+            "apellido": "Straqualursi",
+            "dni": "52589634",
+            "fecha_nacimiento": "2024-07-31",
+            "email": "straquaoct@gmail.com",
+            "telefono_celular": "01147859623",
+            "disciplinas": [
+              {
+                "nombre_disciplina": "tenis",
+                "categoria": "2015"
+              }
+            ],
+            "estado_cuotas": {
+              "al_dia": true,
+              "cuotas_pagadas_al_dia": [
+                {
+                  "mes": "Junio",
+                  "anio": 2025,
+                  "estado": "pagada"
+                }
+              ],
+              "meses_con_deuda": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
